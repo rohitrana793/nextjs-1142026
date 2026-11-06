@@ -101,7 +101,7 @@ const LoginForm = () => {
       >
         {loading ? "Submitting...." : "Login"}
       </button>
-      {error ? <p className="text-red-500">{error}</p> : null}
+      {/* {error ? <p className="text-red-500">{error}</p> : null} */}
     </form>
   );
 };
